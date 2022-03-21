@@ -50,7 +50,7 @@ functions:
 
   parseHtml:
     handler: src/parse-html.default
-    timeout: 10
+    timeout: 30
     memorySize: 256
     events:
       - http:
