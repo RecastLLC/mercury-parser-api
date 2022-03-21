@@ -32,7 +32,7 @@ custom:
 functions:
   mercuryParser:
     handler: src/mercury-parser.default
-    timeout: 10
+    timeout: 30
     memorySize: 256
     events:
       - http:
@@ -50,7 +50,7 @@ functions:
 
   parseHtml:
     handler: src/parse-html.default
-    timeout: 10
+    timeout: 30
     memorySize: 256
     events:
       - http:
